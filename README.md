@@ -1,6 +1,6 @@
 # Image Classification with Deep Learning
 
-This is a Deep Learning based project that classifies images into different categories using Convolutional Neural Network (CNN) model. Users can upload an image, and the model will predict which category the image belongs to.
+This is a **Deep Learning** based project that classifies images into different categories using Convolutional Neural Network (CNN) model. Users can upload an image, and the model will predict which category the image belongs to.
 
 ### Features:
 - **Image Classification**: Upload an image and get predictions on the category it belongs to.
