@@ -34,8 +34,8 @@ if uploaded_file is not None:
 
     image = image.convert("RGB")
 
-    st.image(image, caption="Uploaded Image", use_column_width=True)
-
+    st.image(image, caption="Uploaded Image", use_container_width=True)
+    
     image = image.resize((32, 32)) 
     img_array = np.array(image) / 255.0 
     img_array = np.expand_dims(img_array, axis=0)
